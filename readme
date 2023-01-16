@@ -1,0 +1,26 @@
+How to use it?
+
+1. Compile the compressor. 
+
+2. Execute it.
+
+3. Select the exe file you want to compress.
+
+4. Choose an output file and click save.
+
+5. Add the compressed executable file to the includebinary section of packed.pb  (if you need to know how to do it, refer to this forum question: http://forums.purebasic.com/english/viewtopic.php?t=11064)
+
+6. in the main function, add a call to startexe with the name you used in the includebinary section (for example, if you specified myexefile: as a name, you would call it like this: StartExe(?myexefile, "")). You can delete the default calls to startexe that the packed.pb file comes with. 
+
+7. repeat the steps 2 to 6 for the number of executables you want to include.
+
+8. Compile packed.pb.
+
+
+
+Note: This method only works with 32 bit executables, so make sure that all exe files you include are 32 bit and that you are compiling a 32 bit executable.
+
+The final exe file works on both 32 and 64 bit operating systems.
+
+
+if you have any other questions about this project, do not hesitate to contact me at this email: p2c69420@gmail.com .
