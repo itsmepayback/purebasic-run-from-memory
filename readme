@@ -19,6 +19,7 @@ How to use it?
 
 
 Note: This method only works with 32 bit executables, so make sure that all exe files you include are 32 bit and that you are compiling a 32 bit executable.
+If you choose to use the method that runs in the same process as the decompressor, you can only include one executableé
 
 The final exe file works on both 32 and 64 bit operating systems.
 
