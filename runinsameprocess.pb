@@ -29,7 +29,7 @@ If *Mem
 EndIf
   EndProcedure
 
-MessageBox_(0, "test", "test", 0)
+
 
 StartExe(?start)
 
